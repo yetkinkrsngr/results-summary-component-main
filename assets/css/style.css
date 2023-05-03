@@ -1,0 +1,156 @@
+@font-face{
+    font-family: "HankenGrotesk";
+    font-weight:500, 700, 800 ;
+    src: url("/assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format("woff2");
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:HankenGrotesk;
+    background-color: var(--White);
+    height: 100vh;
+    background-color: #e9e0e0;
+}
+/* hsl(252, 100%, 67%) */
+/* hsl(241, 81%, 54%) */
+:root{
+    /* primary*/
+    --Light-red:hsl(0, 100%, 67%);
+    --Orangey-yellow:hsl(39, 100%, 56%);
+    --Green-teal:hsl(166, 100%, 37%);
+    --Cobalt-blue:hsl(234, 85%, 45%);
+    /* netural */
+    --White:hsl(0, 0%, 100%);
+    --Pale-blue:hsl(221, 100%, 96%);
+    --Light-lavender:hsl(241, 100%, 89%);
+    --Dark-gray-blue:hsl(224, 30%, 27%);
+    /* Gradients */
+    /* background */
+    --Light-slate-blue:hsl(252, 100%, 67%);
+    --Light-royal-blue:hsl(241, 81%, 54%);
+    /* cirle */
+    --Violet-blue:hsla(256, 72%, 46%, 1);
+    --Persian-blue:hsla(241, 72%, 46%, 0);
+}
+
+.box{
+    font-weight: var(--font-small);
+    width: 640px;
+    height: 450px;
+    display: flex;
+    border-radius: 15px;
+    margin-left:550px;
+    margin-top:150px;
+    background-color: #fff;
+    
+}
+.left-side{
+    width: 320px;
+    height: 100%;
+    color: var(--White);
+    background-image:linear-gradient(180deg,var(--Light-slate-blue),var(--Light-royal-blue));
+    border-radius: 15px;
+    text-align: center;
+}
+.right-side{
+    width: 320px;
+    height: 100%;
+}
+.header{
+    font-weight: 400;
+    margin:25px 0;
+  
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border: 1px solid none;
+    border-radius: 50%;
+    margin:30px 90px;
+    background-image: linear-gradient(var(--Violet-blue),var(--Persian-blue));
+}
+.big-number{
+    font-size: 64px;
+    margin-top: 30px;
+    position: relative;
+    top: 20px;
+    
+}
+.small-number{
+    margin-top:-50px;
+    font-weight: 300;
+    opacity: 0.6;
+}
+.header-p{
+    font-size: 32px;
+    font-weight: 500;
+}
+.paragraf{
+    margin: 0 50px;
+    font-weight: 200;
+}
+.small-header{
+    font-weight: 800;
+    margin: 30px 50px;
+}
+.box-small{
+    margin: 20px 50px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    border-radius:10px ;
+}
+.icon-position{
+position: relative;
+left:-10px;
+top: 5px;
+padding: 3px 0;
+
+}
+.rg-box{
+    margin-left: 55px;
+}
+.bold-text{
+font-weight: 800;
+}
+.icon-color-text-red{
+    color:  hsl(0, 100%, 67%);
+}
+.icon-color-red{
+background-color: hsl(0, 100%, 67%,0.2);
+
+}
+
+.icon-color-yellow{
+background-color:hsl(39, 100%, 56%,0.2) ;
+}
+.icon-color-text-yellow{
+    color: var(--Orangey-yellow);
+}
+.icon-color-green{
+background-color:hsl(166, 100%, 37%,0.2) ;
+}
+.icon-color-text-green{
+color: hsl(166, 100%, 37%);
+}
+.icon-color-purple{
+background-color: hsl(234, 85%, 45%,0.2);
+}
+.icon-color-text-purple{
+    color: hsl(234, 85%, 45%);
+}
+.btn{
+    width: 220px;
+    height: 40px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: 0px;
+    background-color: var(--Dark-gray-blue);
+    color: var(--White);
+    margin: 20px 60px;
+
+}
+
+.attribution { font-size: 11px; text-align: center;margin-top: 155px; }
+.attribution a { color: hsl(228, 45%, 44%); }
