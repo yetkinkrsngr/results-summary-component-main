@@ -40,7 +40,7 @@ body{
     height: 450px;
     display: flex;
     border-radius: 15px;
-    margin-left:550px;
+    margin-left:33%;
     margin-top:150px;
     background-color: #fff;
     
@@ -152,5 +152,5 @@ background-color: hsl(234, 85%, 45%,0.2);
 
 }
 
-.attribution { font-size: 11px; text-align: center;margin-top: 155px; }
+.attribution { font-size: 11px; text-align: center;margin-top: 17%; }
 .attribution a { color: hsl(228, 45%, 44%); }
